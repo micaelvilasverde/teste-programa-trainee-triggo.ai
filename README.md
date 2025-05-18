@@ -1,0 +1,1 @@
+# teste-programa-trainee-ttriggo.ai
