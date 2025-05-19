@@ -13,6 +13,8 @@ Visualizações interativas e insights acionáveis
 
 Uso eficiente de tecnologias de dados
 
+
+
 🧱 Estrutura do Projeto
 bash
 Copiar
@@ -26,6 +28,9 @@ Editar
 │   ├── olist_orders_dataset.csv
 │   ├── ...
 └── /imagens                    # Gráficos e visualizações salvos
+
+
+
 🛠️ Tecnologias e Bibliotecas
 Python 3.11+
 
@@ -39,7 +44,11 @@ Scikit-learn – Modelos e clusterização
 
 Plotly (opcional) – Visualizações interativas
 
+
+
+
 📊 Etapas da Solução
+
 📁 1. Importação e Organização dos Dados
 Extração automática do zip
 
@@ -78,6 +87,8 @@ Ranking das formas de pagamento
 
 Gráficos de dispersão para detecção de outliers
 
+
+
 ✅ Resultados e Insights
 Estados do Sudeste concentram a maioria das vendas
 
@@ -89,6 +100,8 @@ Modelos simples conseguem prever atrasos com acurácia > 70%
 
 Clientes podem ser agrupados em 3 perfis distintos de comportamento
 
+
+
 ▶️ Como Executar
 Acesse o Google Colab: https://colab.research.google.com/
 
@@ -97,6 +110,8 @@ Faça upload do notebook teste_triggo.ipynb e do olist_data.zip
 Execute todas as células
 
 Os gráficos serão exibidos no notebook
+
+
 
 🔧 Melhorias Futuras
 Uso de BigQuery ou Redshift para análise em escala
