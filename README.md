@@ -103,7 +103,7 @@ Clientes podem ser agrupados em 3 perfis distintos de comportamento
 
 
 ▶️ Como Executar
-Acesse o Google Colab: https://colab.research.google.com/
+Acesse o Google Colab: (https://colab.research.google.com/drive/15wpZw6fB1rMkqLulfxxgYU6DaRapzUzr?usp=sharing) https://drive.google.com/drive/folders/1HMKzZ0W6STH_tFhnqBgi-G9oKWX7-2Ii?usp=sharing
 
 Faça upload do notebook teste_triggo.ipynb e do olist_data.zip
 
