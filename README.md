@@ -16,18 +16,21 @@ Uso eficiente de tecnologias de dados
 
 
 🧱 Estrutura do Projeto
-bash
-Copiar
-Editar
-📁 projeto-triggo
-│
-├── teste_triggo.ipynb          # Notebook principal com todas as análises
-├── README.md                   # Este arquivo
-├── /data                       # Dados extraídos do zip da Olist
+notebooks/
+│   └── olist_analysis.ipynb
+├── data/
 │   ├── olist_customers_dataset.csv
 │   ├── olist_orders_dataset.csv
-│   ├── ...
-└── /imagens                    # Gráficos e visualizações salvos
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   ├── olist_order_reviews_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
+│   ├── olist_geolocation_dataset.csv
+│   └── product_category_name_translation.csv
+├── images/
+│   └── [gráficos gerados]
+└── README.md
 
 
 
@@ -69,6 +72,32 @@ Avaliação dos produtos (review score)
 
 Categorias mais vendidas
 
+📊 Análises Realizadas
+1. Evolução de Pedidos ao Longo do Tempo
+Analisamos a quantidade de pedidos realizados ao longo do tempo para identificar tendências sazonais e crescimento do e-commerce.
+
+2. Vendas por Estado
+Utilizamos um mapa coroplético para visualizar o volume de vendas por estado brasileiro, identificando as regiões com maior faturamento.
+
+3. Avaliações dos Clientes
+Análise das avaliações dos clientes para entender a satisfação geral e identificar possíveis áreas de melhoria.
+
+4. Tempo de Entrega
+Estudo do tempo médio de entrega dos pedidos, destacando possíveis atrasos e eficiência logística.
+
+5. Meios de Pagamento
+Distribuição dos diferentes meios de pagamento utilizados pelos clientes, identificando preferências e tendências.
+
+📌 Principais Insights
+Regiões com Maior Faturamento: Os estados do Sudeste concentram a maior parte das vendas, destacando-se São Paulo e Rio de Janeiro.
+
+Satisfação dos Clientes: A maioria das avaliações dos clientes é positiva, indicando uma boa experiência de compra.
+
+Eficiência Logística: O tempo médio de entrega está dentro do esperado, com alguns casos de atrasos que merecem atenção.
+
+Preferência por Cartão de Crédito: A maioria dos clientes opta por pagar com cartão de crédito, seguido por boleto bancário.
+
+
 🚀 3. Solução de Problemas de Negócio
 Relação entre frete e nota de avaliação
 
@@ -86,19 +115,6 @@ Score de avaliações por categoria
 Ranking das formas de pagamento
 
 Gráficos de dispersão para detecção de outliers
-
-
-
-✅ Resultados e Insights
-Estados do Sudeste concentram a maioria das vendas
-
-Cartão de crédito é a forma de pagamento dominante
-
-Fretes mais caros tendem a avaliações piores
-
-Modelos simples conseguem prever atrasos com acurácia > 70%
-
-Clientes podem ser agrupados em 3 perfis distintos de comportamento
 
 
 
